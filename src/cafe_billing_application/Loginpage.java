@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package cafe_billing_application;
 
 import deo.UserDao;
@@ -9,10 +6,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import model.User;
 
-/**
- *
- * @author Veni
- */
+
 public class Loginpage extends javax.swing.JFrame {
     public String emailPattern = "^[a-zA-Z0-9]+[@]+[a-zA-Z0-9]+[.]+[a-zA-Z0-9]+$";
     

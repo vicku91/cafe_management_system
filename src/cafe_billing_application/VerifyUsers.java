@@ -33,7 +33,7 @@ public class VerifyUsers extends javax.swing.JFrame {
         Iterator<User> itr = list.iterator();
         while(itr.hasNext()){
             User userObj = itr.next();
-            if(!userObj.getEmail().equals("veni2201@gmail.com")){
+            if(!userObj.getEmail().equals("vickucarpenter4526@gmail.com")){
                 dtm.addRow(new Object[]{userObj.getId(),userObj.getName(),userObj.getEmail(),userObj.getMobileNumber(),userObj.getAddress(),userObj.getSecurityQuestion(),userObj.getStatus()});
                 
             }
